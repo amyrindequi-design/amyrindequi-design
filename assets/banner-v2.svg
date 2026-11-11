@@ -10,10 +10,6 @@
       <stop offset="50%" stop-color="#ef4444"/>
       <stop offset="100%" stop-color="#a855f7"/>
     </linearGradient>
-    <linearGradient id="glow" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#ef4444" stop-opacity="0.0"/>
-    </linearGradient>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#a855f7" stroke-width="0.6" stroke-opacity="0.12"/>
     </pattern>
@@ -61,7 +57,7 @@
 
   <!-- Subtitle -->
   <text x="62" y="182" fill="#e9d5ff" font-family="JetBrains Mono, monospace" font-size="17" font-weight="600" letter-spacing="1.5">
-    ⚡ ENGENHARIA ELÉTRICA &amp; SISTEMAS DE INFORMAÇÃO
+    ⚡ SISTEMAS EMBARCADOS // TELEMETRIA // LINUX &amp; CAD 3D
   </text>
 
   <!-- Specialization Tags -->

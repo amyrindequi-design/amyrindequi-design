@@ -1,6 +1,6 @@
 <div align="center">
 
-![Amyr Indequi Banner](assets/banner.svg)
+![Amyr Indequi Banner](assets/banner-v2.svg)
 
 <br/>
 
@@ -19,9 +19,6 @@
 ```yaml
 nome: "Amyr de Oliveira Indequi"
 localizacao: "Belém - PA, Brasil"
-areas_de_formacao:
-  - "Engenharia Elétrica"
-  - "Sistemas de Informação"
 atuacao_atual:
   - "Eletrônica Embarcada & Telemetria — Projeto Baja SAE"
   - "Colaborador na Área de Eletrônica & Educação Tecnológica — Projeto CISEB"
