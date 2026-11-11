@@ -19,14 +19,12 @@
 ```yaml
 nome: "Amyr de Oliveira Indequi"
 localizacao: "Belém - PA, Brasil"
-formacao:
-  - curso: "Engenharia Elétrica (8º Semestre)"
-    instituicao: "Estácio"
-  - curso: "Sistemas de Informação (5º Semestre)"
-    instituicao: "UFRA (Universidade Federal Rural da Amazônia)"
+areas_de_formacao:
+  - "Engenharia Elétrica"
+  - "Sistemas de Informação"
 atuacao_atual:
-  - "Participante de Eletrônica Embarcada & Telemetria — Projeto Baja SAE"
-  - "Colaborador na Área de Eletrônica & Educação Tecnológica — Projeto CISEB (Pará)"
+  - "Eletrônica Embarcada & Telemetria — Projeto Baja SAE"
+  - "Colaborador na Área de Eletrônica & Educação Tecnológica — Projeto CISEB"
 foco_tecnico:
   - "Sistemas Embarcados (ESP32 / ESP32-S3, LoRa32 V3, Sensores Hall, SPI/I2C)"
   - "Telemetria Veicular Off-Road sem dependência de internet"
