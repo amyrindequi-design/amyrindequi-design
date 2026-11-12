@@ -70,21 +70,22 @@ foco_tecnico:
 ## 🖥️ Meu Ambiente Linux (`fastfetch`)
 
 ```text
-                                        ╭─── 󰣛 amyr@fedora ─── [SKILL HUNTER // SYS.HUD] ───╮
-       ▄▀                       ▀▄      │ 󰣛 Distro   ❯ Fedora Linux Workstation Edition
-     █   ▄▀       ▄▀ ▀▄       ▀▄   █    │ 󰌽 Kernel   ❯ Linux 7.3.3 x86_64
-    █   █   ▄▀   ▄█████▄   ▀▄   █   █   │ 󱂬 WM/Comp  ❯ Mutter (Wayland) + Cubo 3D + Glitch
-    █  █   █  ▀▄███▀█▀███▄▀  █   █  █   │ 󰆍 Shell    ❯ bash + Starship Prompt
-     █  █   ▀▄  ▀███████▀  ▄▀   █  █    │  Term     ❯ Ptyxis (Blurred Glass) + Tmux Deck
-      ▀  █  ▄▀▀▀▄███████▄▀▀▀▄  █  ▀     ├────────────── [ TELEMETRY // HARDWARE ] ──────────────┤
-        ▄▀ █   ████▄█▄████   █ ▀▄       │ 󰻠 CPU      ❯ 13th Gen Intel Core i3-1305U
-       █  █   █████▀█▀█████   █  █      │ 󰢮 GPU      ❯ Intel UHD Graphics
-       █  █  ███████▀███████  █  █      │ 󰍛 Memory   ❯ [ ████░░░░░░░░░░ ] 3.1 GiB / 11.3 GiB
-       █  █  ███████▄███████  █  █      │ 󰋊 Disk     ❯ [ █░░░░░░░░░░░░░ ] btrfs
-       █  ▀▄  █████▀█▀█████  ▄▀  █      ╰───────────────────────────────────────────────────────╯
-       ▀▄  ▀▄  ███████████  ▄▀  ▄▀        👉 Copiar meu OS em 1 comando:
-        ▀▄  █   ▀███████▀   █  ▄▀            curl -fsSL https://raw.githubusercontent.com/amyrindequi-design/fedora-gnome-larper-rice/main/install.sh | bash
-          ▀▄▀▄    ▀▀█▀▀    ▄▀▄▀
-              ▀▄         ▄▀
+                                           ╭─── 󰣛 amyr@fedora ─── [SKILL HUNTER // SYS.HUD] ───╮
+        ⢄      ⢀⡄        ⢠⡀      ⡠         │ 󰣛 Distro   ❯ Fedora Linux Workstation Edition
+        ⠘⡆    ⣴⡏          ⢹⣦    ⢰⠃         │ 󰌽 Kernel   ❯ Linux 7.3.3 x86_64
+         ⢼⣦⡀  ⠹⣿⡄        ⢠⣿⠏  ⢀⣴⡧          │ 󱂬 WM/Comp  ❯ Mutter (Wayland) + Cubo 3D + Glitch
+   ⠙⢦⡀    ⠙⠻⣶⣄ ⠹⣿⡄⢠⡞⠁⠈⢳⡄⢠⣿⠏ ⣠⣶⠟⠋    ⢀⡴⠋    │ 󰆍 Shell    ❯ bash + Starship Prompt
+     ⠙⠢⣄⣀   ⠈⠻⢷⣤⡙⣿⡄⢇⢀⡀⡸⢠⣿⢋⣤⡾⠟⠁   ⣀⣠⠔⠋      │  Term     ❯ Ptyxis (Blurred Glass) + Tmux Deck
+       ⠙⠛⠿⢷⣶⣦⣤⣀⡙⢿⣾⣿⣿⣿⣿⣿⣿⣷⡿⢋⣀⣤⣴⣶⡿⠿⠛⠋        ├────────────── [ TELEMETRY // HARDWARE ] ──────────────┤
+   ⢤⡀       ⠉⠙⠛⠿⢿⡮⠽⣿⣿⣿⣿⠯⢵⡿⠿⠛⠋⠉       ⢀⡤    │ 󰻠 CPU      ❯ 13th Gen Intel Core i3-1305U
+    ⠉⠢⣄⣀⣀⣀⣤⣤⣤⣶⣶⣶⢿⡗ ⢰⣿⣿⡆ ⢺⡿⣶⣶⣶⣤⣤⣤⣀⣀⣀⣠⠔⠉     │ 󰢮 GPU      ❯ Intel UHD Graphics
+      ⠈⠟⠛⠛⠋⠉⠉⣀⣴⣾⢿⣿⣿⣿⣿⣿⣿⣿⣿⡿⣷⣦⣀⠉⠉⠙⠛⠛⠻⠁       │ 󰍛 Memory   ❯ [ ████░░░░░░░░░░ ] 3.1 GiB / 11.3 GiB
+         ⢀⣤⣶⡿⠟⠉⣠⣾⣿⣿⣿⡿⢿⣿⣿⣿⣷⣄⠉⠻⢿⣶⣤⡀          │ 󰋊 Disk     ❯ [ █░░░░░░░░░░░░░ ] btrfs
+       ⢴⣾⠟⠋⠁ ⢀⣼⣿⣿⣿⣿⣿  ⣿⣿⣿⣿⣿⣧⡀ ⠈⠙⠻⣷⡦        ╰───────────────────────────────────────────────────────╯
+       ⡏    ⣠⣿⠋ ⣿⣿⣿⣿⣦⣴⣿⣿⣿⣿ ⠙⣿⣄    ⢹          👉 Copiar meu OS em 1 comando:
+      ⢸⠁   ⢾⠟⠁  ⠈⢿⣿⣿⣿⣿⣿⣿⡿⠁  ⠈⠻⡷   ⠈⡇            curl -fsSL https://raw.githubusercontent.com/amyrindequi-design/fedora-gnome-larper-rice/main/install.sh | bash
+      ⠁    ⠉⢧     ⠈⠙⠛⠛⠋⠁     ⡼⠉    ⠈
+            ⠈⢧              ⡼⠁
+             ⠈⠇            ⠸⠁
        ── GEN'EI RYODAN // NO.0 ──
 ```
