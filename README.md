@@ -60,7 +60,7 @@ foco_tecnico:
 
 | Projeto | Descrição | Tecnologias |
 | :--- | :--- | :--- |
-| 🕷️ **[fedora-gnome-larper-rice](https://github.com/amyrindequi-design/fedora-gnome-larper-rice)** | Setup completo de customização (**Linux Larper / Rice**) para Fedora GNOME Wayland (Chrollo Edition): Cubo 3D, Blur my Shell, Burn My Windows, Fastfetch customizado, Starship, painel `tmux` 4-em-1 (`larper`) e instalador automático. | `Linux` `GNOME` `Bash` `Python` `Tmux` `Fastfetch` |
+| 🕷️ **[fedora-gnome-larper-rice](https://github.com/amyrindequi-design/fedora-gnome-larper-rice)** | Setup completo de customização (**Linux Larper / Rice**) para Fedora GNOME Wayland (Chrollo Edition): Cubo 3D + Skybox 360°, extensão custom **Transição Hacker GLSL/Cairo**, Burn My Windows, Blur my Shell, Fastfetch (Aranha Nº 0), Starship, painel `tmux` (`larper`) e clone do OS em **1 comando**. | `Linux` `GNOME` `GLSL` `Bash` `Python` `Tmux` |
 | 🏎️ **Telemetria & Eletrônica Baja SAE** | Desenvolvimento elétrico de veículo off-road universitário: medição de RPM/velocidade com sensor Hall A3144, telemetria de longa distância via **ESP32-S3 + LoRa32 V3** sem internet, display OLED SSD1306 (SPI) e modelagem 3D da gaiola. | `C++` `ESP32-S3` `LoRa` `SPI` `FreeCAD` `Python` |
 | 🤖 **Projeto CISEB — Eletrônica & Robótica** | Colaboração técnica em projetos de eletrônica embarcada, manutenção de bancadas e ensino prático de robótica e tecnologia para jovens no Pará. | `Eletrônica` `Arduino` `ESP32` `Robótica` |
 | ⚖️ **[normas-consumidor](https://github.com/amyrindequi-design/normas-consumidor)** | Base estruturada em Markdown do Código de Defesa do Consumidor (CDC) e Lei 9.099 para consulta rápida e integração em soluções de Hackathon. | `Markdown` `Automação` `Hackathon` |
@@ -70,21 +70,21 @@ foco_tecnico:
 ## 🖥️ Meu Ambiente Linux (`fastfetch`)
 
 ```text
-                                           ╭─── 󰣛 amyr@fedora ─── [SKILL HUNTER // SYS.HUD] ───╮
-          ╲         ▄█▄         ╱          │ 󰣛 Distro   ❯ Fedora Linux Workstation Edition
-       ╲   ╲        ███        ╱   ╱       │ 󰌽 Kernel   ❯ Linux 7.3.3 x86_64
-        ╲   ╲    ▄▄█████▄▄    ╱   ╱        │ 󱂬 WM/Comp  ❯ Mutter (Wayland) + 3D Desktop Cube
-         ╲   ╲ ▄███████████▄ ╱   ╱         │ 󰆍 Shell    ❯ bash + Starship Prompt
-     ╲    ╲   ████▀▀   ▀▀████   ╱    ╱     │  Term     ❯ Ptyxis (Blurred Glass) + Tmux Deck
-      ╲    ╲ ███▀   ▄█▄   ▀███ ╱    ╱      ├────────────── [ TELEMETRY // HARDWARE ] ──────────────┤
-       ╲    ████   ██▀██   ████    ╱       │ 󰻠 CPU      ❯ 13th Gen Intel Core i3-1305U
-   ─────╲──█████   ██▄██   █████──╱─────   │ 󰢮 GPU      ❯ Intel UHD Graphics
-       ╱    ████    ▀█▀    ████    ╲       │ 󰍛 Memory   ❯ [ ████░░░░░░░░░░ ] 3.1 GiB / 11.3 GiB
-      ╱    ╱ ███▄   ███   ▄███ ╲    ╲      │ 󰋊 Disk     ❯ [ █░░░░░░░░░░░░░ ] btrfs
-     ╱    ╱   ████▄▄███▄▄████   ╲    ╲     ╰───────────────────────────────────────────────────────╯
-         ╱   ╱ ▀███████████▀ ╲   ╲            👉 Quer deixar seu Linux igual?
-        ╱   ╱    ▀▀█████▀▀    ╲   ╲              Veja: github.com/amyrindequi-design/fedora-gnome-larper-rice
-       ╱   ╱       █████       ╲   ╲
-          ╱         ▀█▀         ╲
-         ── GEN'EI RYODAN // NO.0 ──
+                                        ╭─── 󰣛 amyr@fedora ─── [SKILL HUNTER // SYS.HUD] ───╮
+       ▄▀                       ▀▄      │ 󰣛 Distro   ❯ Fedora Linux Workstation Edition
+     █   ▄▀       ▄▀ ▀▄       ▀▄   █    │ 󰌽 Kernel   ❯ Linux 7.3.3 x86_64
+    █   █   ▄▀   ▄█████▄   ▀▄   █   █   │ 󱂬 WM/Comp  ❯ Mutter (Wayland) + Cubo 3D + Glitch
+    █  █   █  ▀▄███▀█▀███▄▀  █   █  █   │ 󰆍 Shell    ❯ bash + Starship Prompt
+     █  █   ▀▄  ▀███████▀  ▄▀   █  █    │  Term     ❯ Ptyxis (Blurred Glass) + Tmux Deck
+      ▀  █  ▄▀▀▀▄███████▄▀▀▀▄  █  ▀     ├────────────── [ TELEMETRY // HARDWARE ] ──────────────┤
+        ▄▀ █   ████▄█▄████   █ ▀▄       │ 󰻠 CPU      ❯ 13th Gen Intel Core i3-1305U
+       █  █   █████▀█▀█████   █  █      │ 󰢮 GPU      ❯ Intel UHD Graphics
+       █  █  ███████▀███████  █  █      │ 󰍛 Memory   ❯ [ ████░░░░░░░░░░ ] 3.1 GiB / 11.3 GiB
+       █  █  ███████▄███████  █  █      │ 󰋊 Disk     ❯ [ █░░░░░░░░░░░░░ ] btrfs
+       █  ▀▄  █████▀█▀█████  ▄▀  █      ╰───────────────────────────────────────────────────────╯
+       ▀▄  ▀▄  ███████████  ▄▀  ▄▀        👉 Copiar meu OS em 1 comando:
+        ▀▄  █   ▀███████▀   █  ▄▀            curl -fsSL https://raw.githubusercontent.com/amyrindequi-design/fedora-gnome-larper-rice/main/install.sh | bash
+          ▀▄▀▄    ▀▀█▀▀    ▄▀▄▀
+              ▀▄         ▄▀
+       ── GEN'EI RYODAN // NO.0 ──
 ```
